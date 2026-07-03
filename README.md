@@ -36,7 +36,7 @@ Vedaz-Assignment/
 │
 ├── configs/
 │   ├── training_config.py
-│   └── qlora.yaml
+│  
 │
 ├── dataset/
 │   └── train.jsonl
@@ -56,9 +56,7 @@ Vedaz-Assignment/
 ├── src/
 │   ├── train.py
 │   ├── inference.py
-│   ├── preprocess.py
-│   ├── evaluate.py
-│   └── utils.py
+│  
 │
 ├── requirements.txt
 ├── README.md
