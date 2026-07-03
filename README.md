@@ -42,15 +42,21 @@ python src/train.py
 
 🧠 Model Details
 Base Model: Qwen2.5-0.5B-Instruct
+
 Fine-tuning: LoRA
+
 Dataset: Custom Vedic Astrology conversations
+
 Task: Instruction tuning chatbot
+
 💬 Run Chatbot
 python src/inference.py
 
 ☁️ Deployment (vLLM - VPS)
 The model can be served using vLLM:
+
 pip install vllm
+
 python -m vllm.entrypoints.openai.api_server \
   --model outputs \
   --port 8000
