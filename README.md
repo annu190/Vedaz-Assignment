@@ -65,7 +65,7 @@ Safe AI behavior for emotional queries
 This AI is for educational and entertainment purposes only.
 It does not provide real astrological or medical advice.
 
-# 3. VPS + vLLM WRITEUP (IMPORTANT THEORY MARKS)
+# 3. VPS + vLLM WRITEUP 
 
 # Hosting Fine-tuned Model using vLLM on VPS
 
@@ -86,6 +86,9 @@ python -m vllm.entrypoints.openai.api_server \
 http://<your-vps-ip>:8000/v1/chat/completions
 # Benefits of vLLM
 -High-speed inference
+
 -Low latency
+
 -Efficient memory usage
+
 -Production-ready LLM serving
