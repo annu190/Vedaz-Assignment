@@ -55,9 +55,9 @@ python src/inference.py
 ☁️ Deployment (vLLM - VPS)
 The model can be served using vLLM:
 
-pip install vllm
+-pip install vllm
 
-python -m vllm.entrypoints.openai.api_server \
+ python -m vllm.entrypoints.openai.api_server \
   --model outputs \
   --port 8000
   
