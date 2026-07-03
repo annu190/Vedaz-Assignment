@@ -67,9 +67,13 @@ The model can be served using vLLM:
   
 📌 Features
 Kundli-based conversational astrology
+
 Empathetic responses
+
 Non-fatalistic predictions
+
 Safe AI behavior for emotional queries
+
 ⚠️ Disclaimer
 
 This AI is for educational and entertainment purposes only.
