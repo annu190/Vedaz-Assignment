@@ -17,12 +17,14 @@ This project fine-tunes **Qwen2.5** using **LoRA (Parameter Efficient Fine Tunin
 
 
 dataset/
-train.jsonl
+
+-train.jsonl
 
 src/
-train.py
 
-inference.py
+-train.py
+
+-inference.py
 
 outputs/
 (fine-tuned model)
